@@ -1,0 +1,119 @@
+@import "header";
+i{
+  font-style: normal;
+}
+.header .header_right{
+  font-size: px2Rem(25);
+  line-height: px2Rem(50);
+}
+
+.count{
+  width: 100%;
+  height: px2Rem(88);
+  color: #fff;
+  padding: px2Rem(30) px2Rem(25);
+  box-sizing: border-box;
+  font-size: px2Rem(24);
+  background-color: #747474;
+  span{
+    margin-right: px2Rem(30);
+  }
+  div{
+    display: inline-block;
+    span:nth-of-type(2){
+      color: #ab1c18;
+    }
+  }
+}
+.container{
+  min-height: px2Rem(943);
+  width: 100%;
+  background-color: #f7f7f7;
+  dl{
+    height: px2Rem(231);
+    width: 100%;
+    padding: px2Rem(33) px2Rem(27);
+    box-sizing: border-box;
+    background-color: #fff;
+    dt{
+      width: px2Rem(174);
+      padding-right: px2Rem(26);
+      float: left;
+      img{
+        border:px2Rem(1) solid #bababa;
+        width: 100%;
+      }
+    }
+    dd{
+      float: left;
+      font-size: px2Rem(30);
+      p{
+        height: px2Rem(40);
+        line-height: px2Rem(40);
+        color: black;
+        span{
+          color: #aa1a19;
+        }
+      }
+      span{
+        float: left;
+      }
+      div{
+        float: left;
+        button{
+          color: #fff;
+          background-color: #878787;
+          height: px2Rem(42);
+          width: px2Rem(56);
+          line-height: px2Rem(42);
+          text-align: center;
+          border-radius: px2Rem(8);
+          float: left;
+        }
+        input{
+          margin: 0 px2Rem(10);
+          float: left;
+          text-align: center;
+          border: 0;
+          border-radius: px2Rem(4);
+          color: black;
+          height: px2Rem(42);
+          width: px2Rem(76);
+          box-shadow: px2Rem(-2) px2Rem(-2) px2Rem(2) px2Rem(2) rgba(0,0,0,0.5);
+        }
+      }
+    }
+    dd:nth-of-type(2){
+      padding-left: px2Rem(30);
+    }
+  }
+  .ul_line{
+    overflow: hidden;
+    width: 100%;
+    height: px2Rem(2);
+    background: url(../images/line.png);
+  }
+}
+
+
+@import "footer";
+.footer{
+  .line{
+    left: px2Rem(256);
+  }
+  .item{
+    position: relative;
+  }
+  .num{
+    height: px2Rem(30);
+    width: px2Rem(30);
+    border-radius: 50%;
+    background-color: #b52121;
+    font-size: px2Rem(28);
+    line-height: px2Rem(30);
+    text-align: center;
+    position: absolute;
+    top:px2Rem(5);
+    left: px2Rem(60);
+  }
+}

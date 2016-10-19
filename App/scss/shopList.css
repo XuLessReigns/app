@@ -1,0 +1,167 @@
+html, body {
+  width: 100%;
+  height: auto; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+  height: 1.3125rem;
+  line-height: 1.3125rem;
+  border-top: 0.01563rem solid #d2302d;
+  background: #ab1b1a;
+  color: #fff;
+  font-size: 0.5625rem;
+  text-align: center;
+  border-bottom: 0.01563rem solid #9a9fa5; }
+  .header .header_right {
+    position: absolute;
+    top: 0.28125rem;
+    right: 0.3125rem;
+    height: 0.70313rem;
+    width: 1.5625rem;
+    padding-top: 0.07813rem;
+    line-height: 0.78125rem;
+    border-radius: 0.21875rem;
+    background: #b80c0a;
+    -webkit-box-shadow: 0 0 px2Rem(3) px2Rem(3) rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 px2Rem(3) px2Rem(3) rgba(0,0,0,0.5);
+    -ms-box-shadow: 0 0 px2Rem(3) px2Rem(3) rgba(0,0,0,0.5);
+    -o-box-shadow: 0 0 px2Rem(3) px2Rem(3) rgba(0,0,0,0.5);
+    box-shadow: 0 0 0.04688rem 0.04688rem rgba(0, 0, 0, 0.5); }
+    .header .header_right .shopCart {
+      text-align: center;
+      display: inline-block;
+      height: 0.60938rem;
+      width: 0.71875rem;
+      background: url(../images/shopcart.png); }
+
+.nav {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 0.89063rem;
+  line-height: 0.89063rem;
+  background: #9a9fa5;
+  justify-content: space-around; }
+  .nav .nav_list img {
+    vertical-align: middle; }
+  .nav .nav_list span {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0; }
+  .nav .nav_list {
+    position: relative; }
+    .nav .nav_list .active {
+      height: 0;
+      width: 0;
+      border-bottom: 0.10938rem solid #fff;
+      border-left: 0.10938rem solid transparent;
+      border-right: 0.10938rem solid transparent;
+      position: absolute;
+      top: 0.78125rem;
+      left: 50%;
+      margin-left: -0.1875rem; }
+    .nav .nav_list .none {
+      display: none; }
+
+.goods {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .goods dl {
+    box-sizing: border-box;
+    margin-top: 0.65625rem;
+    width: 3.8125rem;
+    height: 5.09375rem; }
+    .goods dl dt {
+      border: 0.01563rem solid #c7c7c9;
+      width: 3.8125rem;
+      height: 3.8125rem;
+      position: relative; }
+      .goods dl dt img {
+        width: 100%; }
+      .goods dl dt:after {
+        content: "";
+        position: absolute;
+        top: 0.54688rem;
+        left: 0.4375rem;
+        z-index: -1;
+        height: 3.0625rem;
+        width: 2.9375rem;
+        background-color: transparent;
+        box-shadow: 0 0 0.07813rem 0.125rem rgba(0, 0, 0, 0.5);
+        transform: skew(-18deg) rotate(-10deg); }
+      .goods dl dt:before {
+        content: "";
+        position: absolute;
+        top: 0.54688rem;
+        left: 0.4375rem;
+        z-index: -1;
+        height: 3.0625rem;
+        width: 2.9375rem;
+        background-color: transparent;
+        box-shadow: 0 0 0.07813rem 0.125rem rgba(0, 0, 0, 0.5);
+        transform: skew(18deg) rotate(10deg); }
+    .goods dl dd:nth-of-type(1) {
+      height: 0.9375rem;
+      line-height: 0.9375rem;
+      text-align: center;
+      font-size: 0.34375rem;
+      color: #3b3b3b; }
+    .goods dl dd:nth-of-type(2) {
+      color: #878789; }
+      .goods dl dd:nth-of-type(2) span {
+        color: #d31213;
+        font-size: 0.34375rem;
+        float: left; }
+      .goods dl dd:nth-of-type(2) del {
+        font-size: 0.28125rem;
+        float: right; }
+
+.footer {
+  height: 1.5rem;
+  width: 100%;
+  background: #484850;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 0.01563rem solid #636363;
+  display: flex;
+  justify-content: space-around; }
+
+.line {
+  height: 0.07813rem;
+  width: 2rem;
+  background: #d71110;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 2rem; }
+
+.footer dl {
+  height: 1.40625rem;
+  padding-top: 0.09375rem; }
+
+.footer dl dt {
+  height: 0.76563rem;
+  text-align: center; }
+
+.footer dl dt img {
+  height: 0.76563rem;
+  text-align: center;
+  width: 0.75rem; }
+
+.footer dl dd {
+  text-align: center;
+  color: #fff;
+  height: 0.64063rem;
+  line-height: 0.64063rem;
+  font-weight: bold; }
+
+/*# sourceMappingURL=shopList.css.map */

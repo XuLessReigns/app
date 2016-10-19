@@ -1,0 +1,46 @@
+$fontSize:64;
+$vendor: -webkit- -moz- -ms- -o-;
+@function px2Rem($i){
+  @return $i/$fontSize + rem;
+}
+@mixin addVendor($pro,$v){
+  @each $i in $vendor {
+    #{$i}#{$pro}:#{$v};
+  }
+}
+@import "header";
+.header{
+  border-bottom: px2Rem(1) solid #9a9fa5;
+  span{
+    float: left;
+    width: px2Rem(55);
+    height: px2Rem(55);
+    margin-left: px2Rem(30);
+    margin-top: px2Rem(20);
+    font-size: px2Rem(55);
+    line-height: px2Rem(55);
+    color: #fff;
+  }
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  dl{
+    width: 100%;
+    dt{
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
+    dd{
+      font-size: px2Rem(21);
+      color: #8a8a8a;
+      //p{
+      //  height: px2Rem(32);
+      //  line-height: px2Rem(32);
+      //}
+    }
+  }
+}

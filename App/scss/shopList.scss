@@ -1,0 +1,108 @@
+
+html,body{
+  width: 100%;
+  height: auto;
+}
+@import "header";
+
+.nav{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: px2Rem(57);
+  line-height: px2Rem(57);
+  background: #9a9fa5;
+  justify-content: space-around;
+  .nav_list img{
+    vertical-align: middle;
+  }
+  .nav_list span{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+  }
+  .nav_list{
+    position: relative;
+    .active{
+      height: 0;
+      width: 0;
+      border-bottom: px2Rem(7) solid #fff;
+      border-left: px2Rem(7) solid transparent;
+      border-right: px2Rem(7) solid transparent;
+      position: absolute;
+      top:px2Rem(50);
+      left:50%;
+      margin-left: px2Rem(-12);
+    }
+    .none{
+      display: none;
+    }
+  }
+}
+.goods{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  dl{
+    box-sizing: border-box;
+    margin-top: px2Rem(42);
+    width: px2Rem(244);
+    height: px2Rem(326);
+    dt{
+      border: px2Rem(1) solid #c7c7c9;
+      width: px2Rem(244);
+      height: px2Rem(244);
+      position: relative;
+      img{
+        width: 100%;
+      }
+      &:after{
+        content: "";
+        position: absolute;
+        top:px2Rem(35);
+        left: px2Rem(28);
+        z-index: -1;
+        height: px2Rem(196);
+        width: px2Rem(188);
+        background-color: transparent;
+        box-shadow: 0 0 px2Rem(5) px2Rem(8) rgba(0,0,0,0.5);
+        transform: skew(-18deg) rotate(-10deg);
+      }
+      &:before{
+        content: "";
+        position: absolute;
+        top:px2Rem(35);
+        left: px2Rem(28);
+        z-index: -1;
+        height: px2Rem(196);
+        width: px2Rem(188);
+        background-color: transparent;
+        box-shadow: 0 0 px2Rem(5) px2Rem(8) rgba(0,0,0,0.5);
+        transform: skew(18deg) rotate(10deg);
+      }
+    }
+    dd:nth-of-type(1){
+      height: px2Rem(60);
+      line-height: px2Rem(60);
+      text-align: center;
+      font-size: px2Rem(22);
+      color: #3b3b3b;
+    }
+    dd:nth-of-type(2){
+      color: #878789;
+      span{
+        color: #d31213;
+        font-size: px2Rem(22);
+        float: left;
+      }
+      del{
+        font-size: px2Rem(18);
+        float: right;
+      }
+    }
+  }
+}
+
+@import "footer";

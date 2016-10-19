@@ -1,0 +1,46 @@
+$fontSize:64;
+$vendor: -webkit- -moz- -ms- -o-;
+@function px2Rem($i){
+  @return $i/$fontSize + rem;
+}
+@mixin addVendor($pro,$v){
+  @each $i in $vendor {
+    #{$i}#{$pro}:#{$v};
+  }
+}
+*{
+  margin:0;
+  padding: 0;
+}
+.header{
+  width: 100%;
+  margin: 0 auto;
+  height: px2Rem(84);
+  line-height: px2Rem(84);
+  border-top: px2Rem(1) solid #d2302d;
+  background: #ab1b1a;
+  color: #fff;
+  font-size:px2Rem(36);
+  text-align: center;
+  border-bottom: px2Rem(1) solid #9a9fa5;
+  .header_right{
+    position: absolute;
+    top:px2Rem(18);
+    right: px2Rem(20);
+    height: px2Rem(45);
+    width: px2Rem(100);
+    padding-top: px2Rem(5);
+    line-height: px2Rem(50);
+    border-radius: px2Rem(14);
+    background: #b80c0a;
+    @include addVendor("box-shadow","0 0 px2Rem(3) px2Rem(3) rgba(0,0,0,0.5)");
+    box-shadow: 0 0 px2Rem(3) px2Rem(3) rgba(0,0,0,0.5);
+    .shopCart{
+      text-align: center;
+      display: inline-block;
+      height: px2Rem(39);
+      width: px2Rem(46);
+      background: url(../images/shopcart.png);
+    }
+  }
+}

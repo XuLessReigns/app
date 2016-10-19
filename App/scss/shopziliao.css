@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+  height: 1.3125rem;
+  line-height: 1.3125rem;
+  border-top: 0.01563rem solid #d2302d;
+  background: #ab1b1a;
+  color: #fff;
+  font-size: 0.5625rem;
+  text-align: center;
+  border-bottom: 0.01563rem solid #9a9fa5; }
+  .header .header_right {
+    position: absolute;
+    top: 0.28125rem;
+    right: 0.3125rem;
+    height: 0.70313rem;
+    width: 1.5625rem;
+    padding-top: 0.07813rem;
+    line-height: 0.78125rem;
+    border-radius: 0.21875rem;
+    background: #b80c0a;
+    -webkit-box-shadow: 0 0 px2Rem(3) px2Rem(3) rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 px2Rem(3) px2Rem(3) rgba(0,0,0,0.5);
+    -ms-box-shadow: 0 0 px2Rem(3) px2Rem(3) rgba(0,0,0,0.5);
+    -o-box-shadow: 0 0 px2Rem(3) px2Rem(3) rgba(0,0,0,0.5);
+    box-shadow: 0 0 0.04688rem 0.04688rem rgba(0, 0, 0, 0.5); }
+    .header .header_right .shopCart {
+      text-align: center;
+      display: inline-block;
+      height: 0.60938rem;
+      width: 0.71875rem;
+      background: url(../images/shopcart.png); }
+
+.header {
+  border-bottom: 0.01563rem solid #9a9fa5; }
+  .header span {
+    float: left;
+    width: 0.85938rem;
+    height: 0.85938rem;
+    margin-left: 0.46875rem;
+    margin-top: 0.3125rem;
+    font-size: 0.85938rem;
+    line-height: 0.85938rem;
+    color: #fff; }
+
+.ziliao {
+  width: 100%;
+  height: auto; }
+  .ziliao dl {
+    width: 100%;
+    height: auto; }
+    .ziliao dl dt {
+      width: 100%;
+      height: 5.6875rem; }
+      .ziliao dl dt .lunBo_box {
+        width: 10rem;
+        height: 5.6875rem;
+        overflow: hidden;
+        position: relative; }
+        .ziliao dl dt .lunBo_box .lunBo {
+          position: absolute;
+          left: -2.28125rem;
+          width: 13.64063rem; }
+          .ziliao dl dt .lunBo_box .lunBo .lunBo_list {
+            width: 4.54688rem;
+            height: 5.6875rem;
+            float: left; }
+            .ziliao dl dt .lunBo_box .lunBo .lunBo_list img {
+              display: block;
+              width: 100%;
+              height: 100%; }
+    .ziliao dl dd {
+      box-sizing: border-box;
+      padding: 0.23438rem 0.4375rem;
+      width: 100%;
+      background-color: #f3eff0; }
+      .ziliao dl dd .list_item {
+        margin: 0.23438rem auto;
+        text-align: center;
+        width: 1.5rem;
+        height: 0.625rem;
+        border-radius: 0.3125rem/0.23438rem;
+        background-color: #bcbcbc;
+        position: relative; }
+        .ziliao dl dd .list_item ul {
+          overflow: hidden;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          margin-left: -0.375rem;
+          margin-top: -0.07813rem; }
+          .ziliao dl dd .list_item ul li {
+            float: left;
+            margin-right: 0.07813rem;
+            background-color: #969696;
+            height: 0.17188rem;
+            width: 0.17188rem;
+            border-radius: 50%; }
+          .ziliao dl dd .list_item ul li.on {
+            background-color: #fff; }
+      .ziliao dl dd p {
+        padding: 0.07813rem 0;
+        color: #444444;
+        font-size: 0.46875rem; }
+        .ziliao dl dd p span {
+          color: #b80a52; }
+        .ziliao dl dd p del {
+          margin-left: 0.46875rem; }
+
+.go {
+  height: 1.5625rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.53125rem 0.375rem;
+  color: #656565; }
+  .go .goLeft {
+    float: left; }
+    .go .goLeft i {
+      display: inline-block;
+      width: 0.53125rem;
+      height: 0.53125rem;
+      margin-right: 0.46875rem;
+      background: url(../images/logo1.png) no-repeat; }
+  .go span {
+    float: right;
+    font-weight: bold; }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #a3a3a3;
+  box-sizing: border-box;
+  padding-top: 0.14063rem;
+  height: 1.53125rem;
+  width: 100%; }
+  .footer .addcart {
+    margin: 0 auto;
+    background-color: #bc2423;
+    color: #fff;
+    font-size: 0.46875rem;
+    height: 1.25rem;
+    width: 6.8125rem;
+    line-height: 1.25rem;
+    text-align: center;
+    border-radius: 0.1875rem; }
+
+/*# sourceMappingURL=shopziliao.css.map */

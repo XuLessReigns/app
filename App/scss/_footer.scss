@@ -1,0 +1,40 @@
+.footer{
+  height: px2Rem(96);
+  width: 100%;
+  background: #484850;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: px2Rem(1) solid #636363;
+  display: flex;
+  justify-content: space-around;
+}
+.line{
+  height: px2Rem(5);
+  width: px2Rem(128);
+  background: #d71110;
+  overflow: hidden;
+  position: absolute;
+  top:0;
+  left: px2Rem(128);
+}
+.footer dl{
+  height: px2Rem(90);
+  padding-top: px2Rem(6);
+}
+.footer dl dt{
+  height: px2Rem(49);
+  text-align: center;
+}
+.footer dl dt img{
+  height: px2Rem(49);
+  text-align: center;
+  width: px2Rem(48);
+}
+.footer dl dd{
+  text-align: center;
+  color: #fff;
+  height: px2Rem(41);
+  line-height: px2Rem(41);
+  font-weight: bold;
+}

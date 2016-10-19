@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+  height: 1.3125rem;
+  line-height: 1.3125rem;
+  border-top: 0.01563rem solid #d2302d;
+  background: #ab1b1a;
+  color: #fff;
+  font-size: 0.5625rem;
+  text-align: center;
+  border-bottom: 0.01563rem solid #9a9fa5; }
+  .header .header_right {
+    position: absolute;
+    top: 0.28125rem;
+    right: 0.3125rem;
+    height: 0.70313rem;
+    width: 1.5625rem;
+    padding-top: 0.07813rem;
+    line-height: 0.78125rem;
+    border-radius: 0.21875rem;
+    background: #b80c0a;
+    -webkit-box-shadow: 0 0 px2Rem(3) px2Rem(3) rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 px2Rem(3) px2Rem(3) rgba(0,0,0,0.5);
+    -ms-box-shadow: 0 0 px2Rem(3) px2Rem(3) rgba(0,0,0,0.5);
+    -o-box-shadow: 0 0 px2Rem(3) px2Rem(3) rgba(0,0,0,0.5);
+    box-shadow: 0 0 0.04688rem 0.04688rem rgba(0, 0, 0, 0.5); }
+    .header .header_right .shopCart {
+      text-align: center;
+      display: inline-block;
+      height: 0.60938rem;
+      width: 0.71875rem;
+      background: url(../images/shopcart.png); }
+
+.header {
+  border-bottom: 0.01563rem solid #9a9fa5; }
+  .header span {
+    float: left;
+    width: 0.85938rem;
+    height: 0.85938rem;
+    margin-left: 0.46875rem;
+    margin-top: 0.3125rem;
+    font-size: 0.85938rem;
+    line-height: 0.85938rem;
+    color: #fff; }
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  height: auto; }
+  .container dl {
+    width: 100%; }
+    .container dl dt {
+      width: 100%; }
+      .container dl dt img {
+        width: 100%; }
+    .container dl dd {
+      font-size: 0.32813rem;
+      color: #8a8a8a; }
+
+/*# sourceMappingURL=details.css.map */
